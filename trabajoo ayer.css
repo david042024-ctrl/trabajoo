@@ -1,0 +1,46 @@
+nav { 
+    background-color: rgb(114, 103, 103);
+    padding: 12px;
+    text-align: center;
+    
+    
+    }
+    
+    nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    
+    }
+    
+    nav a:hover {
+        color: brown;
+        text-decoration: underline;
+    
+    }
+    
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: rgb(226, 80, 129);
+    }
+    
+    th,
+    td{
+        border: 1px solid #cbaee4;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.90em;
+    }
+    
+    th {
+        background-color: rgb(176, 212, 16);
+        color: rgb(216, 79, 79);
+    
+    }
+    
+    tr:nth-child(even) {
+        background-color: #a18a4b;
+    }
